@@ -1,0 +1,71 @@
+﻿<Page x:Class="Cinny2017.MoviessearchPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Cinny2017"
+      mc:Ignorable="d" 
+      Title="Cinny" Height="768" Width="1366">
+
+    <Grid>
+        <Rectangle Fill="#FFF2F2F5" HorizontalAlignment="Left" Height="768" Margin="293,0,0,0" Stroke="#00000000" VerticalAlignment="Top" Width="1073"/>
+        <Rectangle Fill="#FF42424F" HorizontalAlignment="Left" Height="768" Stroke="#FF42424F" VerticalAlignment="Top" Width="293"/>
+        <Button x:Name="buttonShowsPlans" Content="Plans" HorizontalAlignment="Left" Margin="0,264,0,0" VerticalAlignment="Top" Width="293" Height="47" Background="#FF5B5B8B" BorderBrush="#00000000" Foreground="White" FontSize="20" FontFamily="Blogger Sans" Click="buttonShowsPlans_Click"/>
+        <Button x:Name="buttonShowsSearch" Content="Search" HorizontalAlignment="Left" Margin="0,311,0,0" VerticalAlignment="Top" Width="293" Height="47" Background="#FF5B5B8B" BorderBrush="#00000000" Foreground="White" FontSize="20" FontFamily="Blogger Sans" Click="buttonShowsSearch_Click"/>
+        <Button x:Name="buttonMoviesSearch" Content="Search" HorizontalAlignment="Left" Margin="0,499,0,0" VerticalAlignment="Top" Width="293" Height="47" Background="#FF5B5B8B" BorderBrush="#00000000" Foreground="White" FontSize="20" FontFamily="Blogger Sans"/>
+        <Button x:Name="buttonMoviesWatched" Content="Watched" HorizontalAlignment="Left" Margin="0,405,0,0" VerticalAlignment="Top" Width="293" Height="47" Background="#FF5B5B8B" BorderBrush="#00000000" Foreground="White" FontSize="20" FontFamily="Blogger Sans" Click="buttonMoviesWatched_Click"/>
+        <Button x:Name="buttonShowsWatched" Content="Watched" HorizontalAlignment="Left" Margin="0,217,0,0" VerticalAlignment="Top" Width="293" Height="47" RenderTransformOrigin="0.484,-0.46" Background="#FF5B5B8B" BorderBrush="#00000000" Foreground="White" FontSize="20" FontFamily="Blogger Sans" Click="buttonShowsWatched_Click"/>
+        <Button x:Name="buttonMoviesPlans" Content="Plans" HorizontalAlignment="Left" Margin="0,452,0,0" VerticalAlignment="Top" Width="293" Height="47" Background="#FF5B5B8B" BorderBrush="#00000000" Foreground="White" FontSize="20" FontFamily="Blogger Sans" Click="buttonMoviesPlans_Click"/>
+        <Label x:Name="labelShows" Content="Shows" HorizontalAlignment="Left" Margin="0,170,0,0" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" RenderTransformOrigin="-4.276,-0.135" Height="47" Width="293" Background="#FF171A4B" FontSize="20" Foreground="White" FontFamily="Blogger Sans Medium"/>
+        <Label x:Name="labelMovies" Content="Movies" HorizontalAlignment="Left" Margin="0,358,0,0" VerticalAlignment="Top" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" RenderTransformOrigin="-4.276,-0.135" Height="47" Width="293" Background="#FF171A4B" FontSize="20" Foreground="White" FontFamily="Blogger Sans Medium"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="768" Margin="293,0,0,-10" VerticalAlignment="Top" Width="1073">
+            <Canvas Height="1514" Width="1073">
+                <Rectangle Fill="#FFDEE0B4" HorizontalAlignment="Left" Height="292" Margin="0,0,0,0" Stroke="#00000000" VerticalAlignment="Top" Width="1073"/>
+                <Image HorizontalAlignment="Left" Height="256" VerticalAlignment="Top" Width="163" Source="Resources/whiplash.jpg" Canvas.Left="60" Canvas.Top="23"/>
+                <Label x:Name="labelWhiplash" Content="Whiplash, 2014" HorizontalAlignment="Left" VerticalAlignment="Top" Width="168" FontSize="24" FontFamily="Blogger Sans Medium" Foreground="#FF0B0B40" Canvas.Left="258" Canvas.Top="13"/>
+                <Label x:Name="labelWhiplashcreator" Content="Director: Damien Chazelle" HorizontalAlignment="Left" VerticalAlignment="Top" Width="149" Height="28" FontFamily="Blogger Sans" FontSize="16" Foreground="#FF0B0B40" Canvas.Left="713" Canvas.Top="16"/>
+                <Label x:Name="labelWhiplashstars" Content="Stars: Miles Teller, J.K. Simmons, Melissa Benoist" HorizontalAlignment="Left" VerticalAlignment="Top" Width="320" FontFamily="Blogger Sans" FontSize="16" Foreground="#FF0B0B40" Canvas.Left="713" Canvas.Top="44"/>
+                <TextBlock x:Name="textBlockWhiplashinfo" HorizontalAlignment="Left" TextWrapping="Wrap" Text="A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential." VerticalAlignment="Top" Width="588" FontFamily="Blogger Sans" FontStyle="Italic" FontSize="18" Foreground="#FF0B0B40" Canvas.Left="263" Canvas.Top="100"/>
+                <Image HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="49" Source="Resources/imdb.png" Canvas.Left="263" Canvas.Top="241"/>
+                <Label x:Name="labelWhiplashgrade" Content=": 8,5/10" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="#FF0B0B40" FontSize="14" FontWeight="Bold" Canvas.Left="312" Canvas.Top="237"/>
+                <Label x:Name="labelWhiplashgenre" Content="Drama, Music" HorizontalAlignment="Left" VerticalAlignment="Top" Width="98" Height="28" FontFamily="Blogger Sans" FontSize="16" Foreground="#FF0B0B40" Canvas.Left="258" Canvas.Top="44"/>
+                <Rectangle Fill="#FFB25938" HorizontalAlignment="Left" Height="292" Margin="0,287,0,0" Stroke="#00000000" VerticalAlignment="Top" Width="1073"/>
+                <Image HorizontalAlignment="Left" Height="249" VerticalAlignment="Top" Width="163" Source="Resources/swiss.jpg" Margin="60,311,0,0"/>
+                <Label x:Name="labelSwiss" Content="Swiss Army Man, 2016" HorizontalAlignment="Left" VerticalAlignment="Top" Width="241" FontSize="24" FontFamily="Blogger Sans Medium" Foreground="White" Canvas.Left="258" Canvas.Top="302"/>
+                <Label x:Name="labelSwisscreator" Content="Directors: Dan Kwan, Daniel Scheinert" HorizontalAlignment="Left" VerticalAlignment="Top" Width="252" Height="28" FontFamily="Blogger Sans" FontSize="16" Foreground="White" Canvas.Left="713" Canvas.Top="304"/>
+                <Label x:Name="labelSwissinfo" Content="Stars: Paul Dano, Daniel Radcliffe" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" FontFamily="Blogger Sans" FontSize="16" Foreground="White" Canvas.Left="713" Canvas.Top="332"/>
+                <TextBlock x:Name="textBlockSwissinfo" HorizontalAlignment="Left" Margin="263,391,0,0" TextWrapping="Wrap" Text="A hopeless man stranded on a deserted island befriends a dead body and together they go on a surreal journey to get home." VerticalAlignment="Top" Width="588" FontFamily="Blogger Sans" FontStyle="Italic" FontSize="18" Foreground="White"/>
+                <Image HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="49" Source="Resources/imdb.png" Canvas.Left="263" Canvas.Top="529"/>
+                <Label x:Name="labelSwissgrade" Content=": 7,0/10" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="14" FontWeight="Bold" Canvas.Left="312" Canvas.Top="525"/>
+                <Label x:Name="labelSwissgenre" Content="Adventure, Comedy, Drama" HorizontalAlignment="Left" Margin="258,334,0,0" VerticalAlignment="Top" Width="338" FontFamily="Blogger Sans" FontSize="16" Foreground="White"/>
+                <Rectangle Fill="#FFE0CBBF" HorizontalAlignment="Left" Height="292" Stroke="#00000000" VerticalAlignment="Top" Width="1073" Canvas.Top="575"/>
+                <Image HorizontalAlignment="Left" Height="249" VerticalAlignment="Top" Width="163" Source="Resources/kommi.jpg" Canvas.Left="60" Canvas.Top="604"/>
+                <Label x:Name="labelKommi" Content="Forushande, 2016" HorizontalAlignment="Left" VerticalAlignment="Top" Width="223" FontSize="24" FontFamily="Blogger Sans Medium" Foreground="#FF100C38" Canvas.Left="258" Canvas.Top="594"/>
+                <Label x:Name="labelKommigenre" Content="Drama, Thriller" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" FontFamily="Blogger Sans" FontSize="16" Foreground="#FF100C38" Canvas.Left="258" Canvas.Top="625"/>
+                <Label x:Name="labelKommicreator" Content="Director: Asghar Farhadi" HorizontalAlignment="Left" VerticalAlignment="Top" Width="252" Height="28" FontFamily="Blogger Sans" FontSize="16" Foreground="#FF100C38" Canvas.Left="713" Canvas.Top="597"/>
+                <Label x:Name="labelKommistars" Content="Stars: Shahab Hosseini, Taraneh Alidoosti" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" FontFamily="Blogger Sans" FontSize="16" Foreground="#FF100C38" Canvas.Left="713" Canvas.Top="625"/>
+                <TextBlock x:Name="textBlockKommiinfo" HorizontalAlignment="Left" TextWrapping="Wrap" Text="While both participating in a production of 'Death of a Salesman,' a teacher's wife is assaulted in her new home, which leaves him determined to find the perpetrator over his wife's traumatized objections." VerticalAlignment="Top" Width="588" FontFamily="Blogger Sans" FontStyle="Italic" FontSize="18" Foreground="#FF100C38" Canvas.Left="263" Canvas.Top="687"/>
+                <Image HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="49" Source="Resources/imdb.png" Canvas.Left="263" Canvas.Top="815"/>
+                <Label x:Name="labelKommigrade" Content=": 7,9/10" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="#FF100C38" FontSize="14" FontWeight="Bold" Canvas.Left="312" Canvas.Top="811"/>
+                <Rectangle Fill="#FF3C3A39" HorizontalAlignment="Left" Height="292" Stroke="#00000000" VerticalAlignment="Top" Width="1073" Canvas.Top="866"/>
+                <Image HorizontalAlignment="Left" Height="236" VerticalAlignment="Top" Width="210" Source="Resources/cure.jpg" Canvas.Left="62" Canvas.Top="895"/>
+                <Label x:Name="labelCure" Content="A Cure for Wellness, 2016" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" FontSize="24" FontFamily="Blogger Sans Medium" Foreground="White" Canvas.Left="258" Canvas.Top="888"/>
+                <Label x:Name="labelCurecreator" Content="Director: Gore Verbinski" HorizontalAlignment="Left" VerticalAlignment="Top" Width="252" Height="28" FontFamily="Blogger Sans" FontSize="16" Foreground="White" Canvas.Left="713" Canvas.Top="891"/>
+                <Label x:Name="labelCureinfo" Content="Stars: Dane DeHaan, Jason Isaacs, Mia Goth" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" FontFamily="Blogger Sans" FontSize="16" Foreground="White" Canvas.Left="713" Canvas.Top="919"/>
+                <Label x:Name="labelCuregenre" Content="Drama, Fantasy, Horror" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" FontFamily="Blogger Sans" FontSize="16" Foreground="White" Canvas.Left="258" Canvas.Top="919"/>
+                <TextBlock x:Name="textBlockCureinfo" HorizontalAlignment="Left" TextWrapping="Wrap" Text="An ambitious young executive is sent to retrieve his company's CEO from an idyllic but mysterious 'wellness center' at a remote location in the Swiss Alps, but soon suspects that the spa's treatments are not what they seem." VerticalAlignment="Top" Width="588" FontFamily="Blogger Sans" FontStyle="Italic" FontSize="18" Foreground="White" Canvas.Left="263" Canvas.Top="983"/>
+                <Image HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="49" Source="Resources/imdb.png" Canvas.Left="263" Canvas.Top="1105"/>
+                <Label x:Name="labelCuregrade" Content=": 6,4/10" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="14" FontWeight="Bold" Canvas.Left="312" Canvas.Top="1101"/>
+                <Rectangle Fill="#FF231E59" HorizontalAlignment="Left" Height="292" Stroke="#00000000" VerticalAlignment="Top" Width="1073" Canvas.Top="1158"/>
+                <Image HorizontalAlignment="Left" Height="247" VerticalAlignment="Top" Width="163" Source="Resources/inter.jpg" Canvas.Left="60" Canvas.Top="1182"/>
+                <Label x:Name="labelInter" Content="Interstellar, 2014" HorizontalAlignment="Left" VerticalAlignment="Top" Width="312" FontSize="24" FontFamily="Blogger Sans Medium" Foreground="#FFF5EC93" Canvas.Left="258" Canvas.Top="1174"/>
+                <Label x:Name="labelIntercreator" Content="Director: Christopher Nolan" HorizontalAlignment="Left" VerticalAlignment="Top" Width="301" Height="28" FontFamily="Blogger Sans" FontSize="16" Foreground="#FFF5EC93" Canvas.Left="713" Canvas.Top="1178"/>
+                <Label x:Name="labelInterinfo" Content="Stars: Matthew McConaughey, Anne Hathaway" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" FontFamily="Blogger Sans" FontSize="16" Foreground="#FFF5EC93" Canvas.Left="713" Canvas.Top="1204"/>
+                <Label x:Name="labelIntergenre" Content="Adventure, Drama, Sci-Fi" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" FontFamily="Blogger Sans" FontSize="16" Foreground="#FFF5EC93" Canvas.Left="258" Canvas.Top="1204"/>
+                <TextBlock x:Name="textBlockInterinfo" HorizontalAlignment="Left" TextWrapping="Wrap" Text="A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival." VerticalAlignment="Top" Width="588" FontFamily="Blogger Sans" FontStyle="Italic" FontSize="18" Foreground="#FFF5EC93" Canvas.Left="263" Canvas.Top="1265"/>
+                <Image HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="49" Source="Resources/imdb.png" Canvas.Left="263" Canvas.Top="1400"/>
+                <Label x:Name="labelIntergrade" Content=": 8,6/10" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="#FFF5EC93" FontSize="14" FontWeight="Bold" Canvas.Left="312" Canvas.Top="1396"/>
+            </Canvas>
+        </ScrollViewer>
+    </Grid>
+</Page>

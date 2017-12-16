@@ -16,20 +16,13 @@ using System.Windows.Shapes;
 namespace Cinny2017
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для MovieswatchedPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MovieswatchedPage : Page
     {
-        public MainWindow()
+        public MovieswatchedPage()
         {
             InitializeComponent();
-
-            frameMain.Navigate(new StartPage());
-        }
-
-        private void frameMain_Navigated(object sender, NavigationEventArgs e)
-        {
-
         }
     }
 }
