@@ -1,4 +1,4 @@
-﻿namespace Cinny2017
+﻿namespace CinnyDemo
 {
     static class Pages
     {

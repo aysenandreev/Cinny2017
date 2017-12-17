@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Cinny2017.Properties
+namespace CinnyDemo.Properties
 {
 
 

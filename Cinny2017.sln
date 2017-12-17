@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinny2017", "Cinny2017\Cinny2017.csproj", "{BC15DF1E-C615-4714-B980-2660DF24FC17}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinny.Data", "..\..\..\..\Dropbox\CinnyDemo\Cinny.Data\Cinny.Data.csproj", "{F85A1EB9-8DF8-4DFE-A468-E07E215EF699}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinnyDemo", "..\CinnyDemo\CinnyDemo\CinnyDemo.csproj", "{E58EE589-3E5E-4B6C-A1AB-BA4F5F698568}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BC15DF1E-C615-4714-B980-2660DF24FC17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BC15DF1E-C615-4714-B980-2660DF24FC17}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BC15DF1E-C615-4714-B980-2660DF24FC17}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BC15DF1E-C615-4714-B980-2660DF24FC17}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F85A1EB9-8DF8-4DFE-A468-E07E215EF699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F85A1EB9-8DF8-4DFE-A468-E07E215EF699}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F85A1EB9-8DF8-4DFE-A468-E07E215EF699}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F85A1EB9-8DF8-4DFE-A468-E07E215EF699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E58EE589-3E5E-4B6C-A1AB-BA4F5F698568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E58EE589-3E5E-4B6C-A1AB-BA4F5F698568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E58EE589-3E5E-4B6C-A1AB-BA4F5F698568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E58EE589-3E5E-4B6C-A1AB-BA4F5F698568}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

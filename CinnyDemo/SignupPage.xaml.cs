@@ -9,7 +9,7 @@ using System.Security.Cryptography;
 using Cinny.Data;
 using Cinny.Data.Models;
 
-namespace Cinny2017
+namespace CinnyDemo
 {
     /// <summary>
     /// Логика взаимодействия для SignupPage.xaml

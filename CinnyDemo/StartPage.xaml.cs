@@ -9,7 +9,7 @@ using System.Security.Cryptography;
 using Cinny.Data;
 using Cinny.Data.Models;
 
-namespace Cinny2017
+namespace CinnyDemo
 {
     /// <summary>
     /// Логика взаимодействия для StartPage.xaml
@@ -19,6 +19,10 @@ namespace Cinny2017
         public StartPage()
         {
             InitializeComponent();
+        }
+        private void buttonSignup_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(Pages.SignupPage);
         }
 
         Repository _repository = new Repository();
@@ -87,7 +91,7 @@ namespace Cinny2017
             user.Email = textBoxEmail.Text;
             user.Password = CalculateHash(textBoxPassword.Text);
 
-            if (context.Users.ToList().Find(u => ((u.Email == user.Email) && (u.Password == user.Password))) != null)
+            if (context.Users.ToList().Find(u=>((u.Email == user.Email) && (u.Password == user.Password))) !=null)
             {
                 NavigationService.Navigate(Pages.ShowswatchedPage);
             }
@@ -95,11 +99,6 @@ namespace Cinny2017
             {
                 MessageBox.Show("Check your data again", "Something gone wrong", MessageBoxButton.OK, MessageBoxImage.Error);
             }
-        }
-
-        private void buttonSignup_Click(object sender, RoutedEventArgs e)
-        {
-            NavigationService.Navigate(Pages.SignupPage);
         }
     }
 }

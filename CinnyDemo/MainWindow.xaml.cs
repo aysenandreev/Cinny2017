@@ -13,16 +13,23 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Cinny2017
+namespace CinnyDemo
 {
     /// <summary>
-    /// Логика взаимодействия для ShowswatchedPage.xaml
+    /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
-    public partial class ShowswatchedPage : Page
+    public partial class MainWindow : Window
     {
-        public ShowswatchedPage()
+        public MainWindow()
         {
             InitializeComponent();
+
+            frameMain.Navigate(new StartPage());
+        }
+
+        private void frameMain_Navigated(object sender, NavigationEventArgs e)
+        {
+
         }
     }
 }

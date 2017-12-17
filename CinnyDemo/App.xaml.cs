@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Cinny2017
+namespace CinnyDemo
 {
     /// <summary>
     /// Логика взаимодействия для App.xaml
